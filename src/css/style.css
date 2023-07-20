@@ -9,7 +9,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 header {
     display: flex;
     justify-content: center;
@@ -35,6 +34,15 @@ header {
 .logo-psg {
     width: 64px;
     height: 64px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #0b1421;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #DA2535;
+    border-radius: 15px;
 }
 
 .ney-background {
