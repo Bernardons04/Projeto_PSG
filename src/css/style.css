@@ -27,6 +27,15 @@ header {
     height: 64px;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #0b1421;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #DA2535;
+    border-radius: 15px;
+}
+
 .ney-background {
     background-image: url(../imagens/wallpaper.png);
     background-size: cover;
